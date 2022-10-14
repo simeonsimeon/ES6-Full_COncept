@@ -14,4 +14,22 @@ SPread[0] = 9;
 console.log(Sp,SPread);
 
 // REST 
+// rest operators also same Syntax with spread 
+
+function Now(...rest){
+   console.log(rest);
+}
+Now(1,2,3,4);
+
+
+// DEstructing 
+
+let  [r,b]= [10,20];
+[b,r] = [r,b];
+console.log(r,b);
+
+
+
+ 
+
 

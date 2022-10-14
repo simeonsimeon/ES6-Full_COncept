@@ -25,5 +25,12 @@ Myfun2.call(obj2,2,3);
 
 // APPLY 
 
-
+function Apply(a,b){
+    console.log(a,b,this.AGe);
+}
+let obj3 = {
+    N : "Simeon",
+    AGe : 22
+}
+Apply.call(obj3,[1,2]);
 
